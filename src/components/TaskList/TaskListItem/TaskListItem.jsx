@@ -1,7 +1,7 @@
 import { MdClose } from 'react-icons/md';
-import css from './Task.module.css';
+import css from './TaskListItem.module.css';
 
-export const Task = ({ task }) => {
+export const TaskListItem = ({ task }) => {
   return (
     <div className={css.wrapper}>
       <input
