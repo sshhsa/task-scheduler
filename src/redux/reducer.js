@@ -2,12 +2,12 @@ import { combineReducers } from 'redux';
 import { statusFilters } from './constants';
 
 const tasksInitialState = [
-  //   { id: 0, text: 'Learn HTML and CSS', completed: true },
-  //   { id: 1, text: 'Learn SCSS and SASS', completed: true },
-  //   { id: 2, text: 'Learn React', completed: true },
-  //   { id: 3, text: 'Learn Redux', completed: false },
-  //   { id: 4, text: 'Learn Node.js and TypeScript', completed: false },
-  //   { id: 5, text: 'Finish commercial project', completed: false },
+  { id: 0, text: 'Learn HTML and CSS', completed: true },
+  { id: 1, text: 'Learn SCSS and SASS', completed: true },
+  { id: 2, text: 'Learn React', completed: true },
+  { id: 3, text: 'Learn Redux', completed: false },
+  { id: 4, text: 'Learn Node.js and TypeScript', completed: false },
+  { id: 5, text: 'Finish commercial project', completed: false },
 ];
 
 const tasksReducer = (state = tasksInitialState, action) => {
